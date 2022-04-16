@@ -1,7 +1,99 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  header {
+    height: 50px;
+    width: auto;
+    background: #cf6b6b;
+    border: 1px solid #cf6b6b;
+    margin: 2px;
+  }
+  
+  .searchbox {
+    float: right;
+    margin: 13.5px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  button {
+    float: right;
+    height: 22px;
+    width: 15px;
+    border: 1px solid black;
+  }
+  
+  .abc {
+    display: inline-block;
+    padding: 5px;
+    margin: 2%;
+  }
+  
+  nav {
+    margin: 2px;
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+  }
+  
+  .sections {
+    border: 1px solid black;
+    margin: 2px;
+    width: 14%;
+    height: 304px;
+    float:left;
+  }
+  .sectionorder{
+    padding-left: 0px;
+  }
+  .sectionslist{
+    margin:10px;
+    width: max-content;
+  }
+  
+  #main-content-section{
+    border: 1px solid black;
+    margin: 2px;
+    width: 70.6%;
+    height: 304px;
+    display:inline-block;
+  }
+  .post-img{
+    height: 140px;
+    width: 31.97%;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .features{
+    border: 0.5px solid black;
+    margin: 2px;
+    width: 14%;
+    float: right;
+    height: 304px;
+  }
+  
+  .featurelist{
+    margin:10px;
+    width: max-content;
+  }
+  
+  #right-sidebar-menu{
+    list-style-type: none;
+  }
+  #page-footer{
+    border: 1px solid black;
+    margin: 2px;
+    background: #cf6b6b;
+  }
+  p{
+    margin: 10px;
+  }
