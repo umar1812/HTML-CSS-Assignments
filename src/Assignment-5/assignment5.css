@@ -1,7 +1,70 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: #e4e4e4;
+    padding: 5px;
+    }
+    
+    .card{
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        margin: 75px 40px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .images {
+        width: 40%;
+        text-align: center;
+        background-color: #78f588;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    
+    h1{
+        font-weight: bold;
+        font-size: 74px;
+    }
+    .image1{
+        position: relative;
+        height:100%;
+        bottom: 60px;
+        right: 25px;
+        width: 113%;
+    }
+    .image2{
+        position: relative;
+        right: 20px ;
+        top: 60px;
+        height: 78%;
+        width: 112%;
+    }
+    
+    .content{
+        padding: 80px;
+        width: 60%;
+        font-size: larger;
+    }
+    p{
+        margin: 40px 0;
+    }
+    
+    button{
+        color: white;
+        background-color:#78f588;
+        border-radius: 30px;
+        padding: 10px 25px;
+        border: none;
+        font-size: large;
+    }
+    
+    button:hover{
+        background-color:  #16ae28;
+    }
+    h1{
+        font-weight: bolder;
+    }
